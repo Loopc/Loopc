@@ -1,0 +1,10 @@
+G:\Loopc\Service\Loopc.Service.ServieImplementation\bin\Debug\Loopc.Service.ServieImplementation.dll
+G:\Loopc\Service\Loopc.Service.ServieImplementation\bin\Debug\Loopc.Service.ServieImplementation.pdb
+G:\Loopc\Service\Loopc.Service.ServieImplementation\obj\Debug\ResolveAssemblyReference.cache
+G:\Loopc\Service\Loopc.Service.ServieImplementation\obj\Debug\Loopc.Service.ServieImplementation.dll
+G:\Loopc\Service\Loopc.Service.ServieImplementation\obj\Debug\Loopc.Service.ServieImplementation.pdb
+C:\Users\Bolun Li\Desktop\Loopc\Service\Loopc.Service.ServieImplementation\bin\Debug\Loopc.Service.ServieImplementation.dll
+C:\Users\Bolun Li\Desktop\Loopc\Service\Loopc.Service.ServieImplementation\bin\Debug\Loopc.Service.ServieImplementation.pdb
+C:\Users\Bolun Li\Desktop\Loopc\Service\Loopc.Service.ServieImplementation\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bolun Li\Desktop\Loopc\Service\Loopc.Service.ServieImplementation\obj\Debug\Loopc.Service.ServieImplementation.dll
+C:\Users\Bolun Li\Desktop\Loopc\Service\Loopc.Service.ServieImplementation\obj\Debug\Loopc.Service.ServieImplementation.pdb

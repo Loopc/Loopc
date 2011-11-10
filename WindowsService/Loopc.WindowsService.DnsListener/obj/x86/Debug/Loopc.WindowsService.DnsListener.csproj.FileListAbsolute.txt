@@ -1,0 +1,10 @@
+G:\Loopc\WindowsService\Loopc.WindowsService.DnsListener\bin\Debug\Loopc.WindowsService.DnsListener.exe
+G:\Loopc\WindowsService\Loopc.WindowsService.DnsListener\bin\Debug\Loopc.WindowsService.DnsListener.pdb
+G:\Loopc\WindowsService\Loopc.WindowsService.DnsListener\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Loopc\WindowsService\Loopc.WindowsService.DnsListener\obj\x86\Debug\Loopc.WindowsService.DnsListener.exe
+G:\Loopc\WindowsService\Loopc.WindowsService.DnsListener\obj\x86\Debug\Loopc.WindowsService.DnsListener.pdb
+C:\Users\Bolun Li\Desktop\Loopc\WindowsService\Loopc.WindowsService.DnsListener\bin\Debug\Loopc.WindowsService.DnsListener.exe
+C:\Users\Bolun Li\Desktop\Loopc\WindowsService\Loopc.WindowsService.DnsListener\bin\Debug\Loopc.WindowsService.DnsListener.pdb
+C:\Users\Bolun Li\Desktop\Loopc\WindowsService\Loopc.WindowsService.DnsListener\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Bolun Li\Desktop\Loopc\WindowsService\Loopc.WindowsService.DnsListener\obj\x86\Debug\Loopc.WindowsService.DnsListener.exe
+C:\Users\Bolun Li\Desktop\Loopc\WindowsService\Loopc.WindowsService.DnsListener\obj\x86\Debug\Loopc.WindowsService.DnsListener.pdb

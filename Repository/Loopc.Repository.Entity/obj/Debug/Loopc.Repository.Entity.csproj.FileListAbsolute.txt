@@ -1,0 +1,10 @@
+G:\Loopc\Repository\Loopc.Repository.Entity\bin\Debug\Loopc.Repository.Entity.dll
+G:\Loopc\Repository\Loopc.Repository.Entity\bin\Debug\Loopc.Repository.Entity.pdb
+G:\Loopc\Repository\Loopc.Repository.Entity\obj\Debug\ResolveAssemblyReference.cache
+G:\Loopc\Repository\Loopc.Repository.Entity\obj\Debug\Loopc.Repository.Entity.dll
+G:\Loopc\Repository\Loopc.Repository.Entity\obj\Debug\Loopc.Repository.Entity.pdb
+C:\Users\Bolun Li\Desktop\Loopc\Repository\Loopc.Repository.Entity\bin\Debug\Loopc.Repository.Entity.dll
+C:\Users\Bolun Li\Desktop\Loopc\Repository\Loopc.Repository.Entity\bin\Debug\Loopc.Repository.Entity.pdb
+C:\Users\Bolun Li\Desktop\Loopc\Repository\Loopc.Repository.Entity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bolun Li\Desktop\Loopc\Repository\Loopc.Repository.Entity\obj\Debug\Loopc.Repository.Entity.dll
+C:\Users\Bolun Li\Desktop\Loopc\Repository\Loopc.Repository.Entity\obj\Debug\Loopc.Repository.Entity.pdb

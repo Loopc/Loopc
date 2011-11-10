@@ -1,0 +1,10 @@
+G:\Loopc\Testing\Loopc.Testing.IntegrationTesting\bin\Debug\Loopc.Testing.IntegrationTesting.dll
+G:\Loopc\Testing\Loopc.Testing.IntegrationTesting\bin\Debug\Loopc.Testing.IntegrationTesting.pdb
+G:\Loopc\Testing\Loopc.Testing.IntegrationTesting\obj\Debug\ResolveAssemblyReference.cache
+G:\Loopc\Testing\Loopc.Testing.IntegrationTesting\obj\Debug\Loopc.Testing.IntegrationTesting.dll
+G:\Loopc\Testing\Loopc.Testing.IntegrationTesting\obj\Debug\Loopc.Testing.IntegrationTesting.pdb
+C:\Users\Bolun Li\Desktop\Loopc\Testing\Loopc.Testing.IntegrationTesting\bin\Debug\Loopc.Testing.IntegrationTesting.dll
+C:\Users\Bolun Li\Desktop\Loopc\Testing\Loopc.Testing.IntegrationTesting\bin\Debug\Loopc.Testing.IntegrationTesting.pdb
+C:\Users\Bolun Li\Desktop\Loopc\Testing\Loopc.Testing.IntegrationTesting\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bolun Li\Desktop\Loopc\Testing\Loopc.Testing.IntegrationTesting\obj\Debug\Loopc.Testing.IntegrationTesting.dll
+C:\Users\Bolun Li\Desktop\Loopc\Testing\Loopc.Testing.IntegrationTesting\obj\Debug\Loopc.Testing.IntegrationTesting.pdb

@@ -1,0 +1,10 @@
+G:\Loopc\UI\Account\Loopc.UI.Account.ViewModel\bin\Debug\Loopc.UI.Account.ViewModel.dll
+G:\Loopc\UI\Account\Loopc.UI.Account.ViewModel\bin\Debug\Loopc.UI.Account.ViewModel.pdb
+G:\Loopc\UI\Account\Loopc.UI.Account.ViewModel\obj\Debug\ResolveAssemblyReference.cache
+G:\Loopc\UI\Account\Loopc.UI.Account.ViewModel\obj\Debug\Loopc.UI.Account.ViewModel.dll
+G:\Loopc\UI\Account\Loopc.UI.Account.ViewModel\obj\Debug\Loopc.UI.Account.ViewModel.pdb
+C:\Users\Bolun Li\Desktop\Loopc\UI\Account\Loopc.UI.Account.ViewModel\bin\Debug\Loopc.UI.Account.ViewModel.dll
+C:\Users\Bolun Li\Desktop\Loopc\UI\Account\Loopc.UI.Account.ViewModel\bin\Debug\Loopc.UI.Account.ViewModel.pdb
+C:\Users\Bolun Li\Desktop\Loopc\UI\Account\Loopc.UI.Account.ViewModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bolun Li\Desktop\Loopc\UI\Account\Loopc.UI.Account.ViewModel\obj\Debug\Loopc.UI.Account.ViewModel.dll
+C:\Users\Bolun Li\Desktop\Loopc\UI\Account\Loopc.UI.Account.ViewModel\obj\Debug\Loopc.UI.Account.ViewModel.pdb

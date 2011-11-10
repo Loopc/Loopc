@@ -1,0 +1,10 @@
+G:\Loopc\Service\Loopc.Service.Contract\bin\Debug\Loopc.Service.Contract.dll
+G:\Loopc\Service\Loopc.Service.Contract\bin\Debug\Loopc.Service.Contract.pdb
+G:\Loopc\Service\Loopc.Service.Contract\obj\Debug\ResolveAssemblyReference.cache
+G:\Loopc\Service\Loopc.Service.Contract\obj\Debug\Loopc.Service.Contract.dll
+G:\Loopc\Service\Loopc.Service.Contract\obj\Debug\Loopc.Service.Contract.pdb
+C:\Users\Bolun Li\Desktop\Loopc\Service\Loopc.Service.Contract\bin\Debug\Loopc.Service.Contract.dll
+C:\Users\Bolun Li\Desktop\Loopc\Service\Loopc.Service.Contract\bin\Debug\Loopc.Service.Contract.pdb
+C:\Users\Bolun Li\Desktop\Loopc\Service\Loopc.Service.Contract\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bolun Li\Desktop\Loopc\Service\Loopc.Service.Contract\obj\Debug\Loopc.Service.Contract.dll
+C:\Users\Bolun Li\Desktop\Loopc\Service\Loopc.Service.Contract\obj\Debug\Loopc.Service.Contract.pdb

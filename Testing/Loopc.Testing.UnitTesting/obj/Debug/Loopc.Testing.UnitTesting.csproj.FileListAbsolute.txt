@@ -1,0 +1,10 @@
+G:\Loopc\Testing\Loopc.Testing.UnitTesting\bin\Debug\Loopc.Testing.UnitTesting.dll
+G:\Loopc\Testing\Loopc.Testing.UnitTesting\bin\Debug\Loopc.Testing.UnitTesting.pdb
+G:\Loopc\Testing\Loopc.Testing.UnitTesting\obj\Debug\ResolveAssemblyReference.cache
+G:\Loopc\Testing\Loopc.Testing.UnitTesting\obj\Debug\Loopc.Testing.UnitTesting.dll
+G:\Loopc\Testing\Loopc.Testing.UnitTesting\obj\Debug\Loopc.Testing.UnitTesting.pdb
+C:\Users\Bolun Li\Desktop\Loopc\Testing\Loopc.Testing.UnitTesting\bin\Debug\Loopc.Testing.UnitTesting.dll
+C:\Users\Bolun Li\Desktop\Loopc\Testing\Loopc.Testing.UnitTesting\bin\Debug\Loopc.Testing.UnitTesting.pdb
+C:\Users\Bolun Li\Desktop\Loopc\Testing\Loopc.Testing.UnitTesting\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bolun Li\Desktop\Loopc\Testing\Loopc.Testing.UnitTesting\obj\Debug\Loopc.Testing.UnitTesting.dll
+C:\Users\Bolun Li\Desktop\Loopc\Testing\Loopc.Testing.UnitTesting\obj\Debug\Loopc.Testing.UnitTesting.pdb
