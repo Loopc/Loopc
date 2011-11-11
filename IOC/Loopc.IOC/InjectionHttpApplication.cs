@@ -7,6 +7,7 @@ namespace Loopc.IOC
     {
         public override void Init()
         {
+            ControllerBuilder.Current.SetControllerFactory(new InjectionControllerFactory(new InjectionRepository().Kernel));
         }
     }
 }

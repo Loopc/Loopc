@@ -47,9 +47,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DependentInjectionControllerFactory.cs" />
+    <Compile Include="BindingModule\OtherBindingModule.cs" />
+    <Compile Include="BindingModule\RepositoryBindingModule.cs" />
+    <Compile Include="BindingModule\ServiceBindingModule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InjectionRepository.cs" />
+    <Compile Include="InjectionActionInvoker.cs" />
+    <Compile Include="InjectionControllerFactory.cs" />
     <Compile Include="InjectionHttpApplication.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Repository\Loopc.Repository.IRepositoryProvider\Loopc.Repository.IRepositoryProvider.csproj">
+      <Project>{DA1750FE-9EDF-40DD-879B-047EBB9A8A5B}</Project>
+      <Name>Loopc.Repository.IRepositoryProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Repository\Loopc.Repository.RepositoryImplmentation\Loopc.Repository.RepositoryImplmentation.csproj">
+      <Project>{75781F65-48E6-42B2-BBC1-1433D566B05D}</Project>
+      <Name>Loopc.Repository.RepositoryImplmentation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Service\Loopc.Service.IServiceProvider\Loopc.Service.IServiceProvider.csproj">
+      <Project>{8077D20A-3F42-4F62-BC20-86773958E5A0}</Project>
+      <Name>Loopc.Service.IServiceProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Service\Loopc.Service.ServieImplementation\Loopc.Service.ServieImplementation.csproj">
+      <Project>{6E96373E-AB6B-4FCA-8A38-D97B4FADF8A9}</Project>
+      <Name>Loopc.Service.ServieImplementation</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
