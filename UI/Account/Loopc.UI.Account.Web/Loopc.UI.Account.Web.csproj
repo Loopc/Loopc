@@ -87,6 +87,10 @@
     <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\Loopc.Foundation.Web\Loopc.Foundation.Web.csproj">
+      <Project>{C568AECC-799A-441D-85FA-82EE1D429CBB}</Project>
+      <Name>Loopc.Foundation.Web</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\IOC\Loopc.IOC\Loopc.IOC.csproj">
       <Project>{BD959F13-8DCB-4234-94E0-68D49EB412E4}</Project>
       <Name>Loopc.IOC</Name>

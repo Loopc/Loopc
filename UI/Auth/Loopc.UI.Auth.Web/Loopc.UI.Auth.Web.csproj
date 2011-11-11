@@ -72,8 +72,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="Content\Css\Login.css" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Views\Home\Login.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -87,9 +88,17 @@
     <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\Loopc.Foundation.Web\Loopc.Foundation.Web.csproj">
+      <Project>{C568AECC-799A-441D-85FA-82EE1D429CBB}</Project>
+      <Name>Loopc.Foundation.Web</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\IOC\Loopc.IOC\Loopc.IOC.csproj">
       <Project>{BD959F13-8DCB-4234-94E0-68D49EB412E4}</Project>
       <Name>Loopc.IOC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Loopc.UI.Auth.Controllers\Loopc.UI.Auth.Controllers.csproj">
+      <Project>{36AB6FB0-A1DA-4D8C-9735-BA7AC5A9C103}</Project>
+      <Name>Loopc.UI.Auth.Controllers</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

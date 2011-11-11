@@ -10,6 +10,10 @@ namespace Loopc.UI.Auth.Web
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            routes.MapRoute("Login", "login", new { controller = "home", action = "login" });
+            routes.MapRoute("Register", "register", new { controller = "home", action = "register" });
+            routes.MapRoute("Forgotten", "forgotten", new { controller = "home", action = "forgotten" });
+
             routes.MapRoute(
                 "Default", // 路由名称
                 "{controller}/{action}/{id}", // 带有参数的 URL
