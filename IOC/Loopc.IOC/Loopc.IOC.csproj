@@ -59,6 +59,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Foundation\Loopc.Foundation.Web\Loopc.Foundation.Web.csproj">
+      <Project>{C568AECC-799A-441D-85FA-82EE1D429CBB}</Project>
+      <Name>Loopc.Foundation.Web</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Repository\Loopc.Repository.IRepositoryProvider\Loopc.Repository.IRepositoryProvider.csproj">
       <Project>{DA1750FE-9EDF-40DD-879B-047EBB9A8A5B}</Project>
       <Name>Loopc.Repository.IRepositoryProvider</Name>

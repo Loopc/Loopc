@@ -1,4 +1,6 @@
-﻿using Ninject.Modules;
+﻿using Loopc.Repository.IRepositoryProvider;
+using Loopc.Repository.RepositoryImplmentation;
+using Ninject.Modules;
 
 namespace Loopc.IOC.BindingModule
 {
@@ -6,7 +8,7 @@ namespace Loopc.IOC.BindingModule
     {
         public override void Load()
         {
-            
+            Bind<IUserRepository>().To<UserRepository>().InSingletonScope();
         }
     }
 }

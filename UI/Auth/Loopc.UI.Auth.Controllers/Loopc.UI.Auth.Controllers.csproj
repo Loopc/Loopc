@@ -46,6 +46,12 @@
     <Compile Include="HomeController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Loopc.UI.Auth.ViewModel\Loopc.UI.Auth.ViewModel.csproj">
+      <Project>{185ECC27-8809-49B1-A0D9-5FD1050C1BBE}</Project>
+      <Name>Loopc.UI.Auth.ViewModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -41,6 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Loopc.Repository.IRepositoryProvider\Loopc.Repository.IRepositoryProvider.csproj">
+      <Project>{DA1750FE-9EDF-40DD-879B-047EBB9A8A5B}</Project>
+      <Name>Loopc.Repository.IRepositoryProvider</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
