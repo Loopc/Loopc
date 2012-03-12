@@ -72,7 +72,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="Content\Css\Global.css" />
+    <Content Include="Views\Home\Index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -94,6 +95,14 @@
     <ProjectReference Include="..\..\..\IOC\Loopc.IOC\Loopc.IOC.csproj">
       <Project>{BD959F13-8DCB-4234-94E0-68D49EB412E4}</Project>
       <Name>Loopc.IOC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Loopc.UI.Account.Controllers\Loopc.UI.Account.Controllers.csproj">
+      <Project>{CB7EFD42-DE83-4108-B1F0-B978E61ECF2B}</Project>
+      <Name>Loopc.UI.Account.Controllers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Loopc.UI.Account.ViewModel\Loopc.UI.Account.ViewModel.csproj">
+      <Project>{CF3B012A-360F-40CA-97C4-D066EED1FF4E}</Project>
+      <Name>Loopc.UI.Account.ViewModel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

@@ -33,6 +33,10 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,7 +44,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseController.cs" />
+    <Compile Include="Extension\DemoContractExtension.cs" />
+    <Compile Include="HomeController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Service\Loopc.Service.Contract\Loopc.Service.Contract.csproj">
+      <Project>{45CAB397-F7AF-4D48-8FF3-0E7CD7EF9B55}</Project>
+      <Name>Loopc.Service.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Service\Loopc.Service.IServiceProvider\Loopc.Service.IServiceProvider.csproj">
+      <Project>{8077D20A-3F42-4F62-BC20-86773958E5A0}</Project>
+      <Name>Loopc.Service.IServiceProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Loopc.UI.Account.ViewModel\Loopc.UI.Account.ViewModel.csproj">
+      <Project>{CF3B012A-360F-40CA-97C4-D066EED1FF4E}</Project>
+      <Name>Loopc.UI.Account.ViewModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

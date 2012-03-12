@@ -8,7 +8,7 @@ namespace Loopc.IOC.BindingModule
     {
         public override void Load()
         {
-            Bind<IUserRepository>().To<UserRepository>().InSingletonScope();
+            Bind<IDemoRepository>().To<DemoRepository>().InSingletonScope();
         }
     }
 }

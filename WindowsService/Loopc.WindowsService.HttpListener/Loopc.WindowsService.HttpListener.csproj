@@ -11,7 +11,8 @@
     <RootNamespace>Loopc.WindowsService.HttpListener</RootNamespace>
     <AssemblyName>Loopc.WindowsService.HttpListener</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -34,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Ninject">
+      <HintPath>..\..\Dependence\Ninject.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,6 +56,27 @@
     <Compile Include="Service.Designer.cs">
       <DependentUpon>Service.cs</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Foundation\Loopc.Foundation\Loopc.Foundation.csproj">
+      <Project>{57984D76-7332-4F92-9CE3-365876675091}</Project>
+      <Name>Loopc.Foundation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\IOC\Loopc.IOC\Loopc.IOC.csproj">
+      <Project>{BD959F13-8DCB-4234-94E0-68D49EB412E4}</Project>
+      <Name>Loopc.IOC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Service\Loopc.Service.Contract\Loopc.Service.Contract.csproj">
+      <Project>{45CAB397-F7AF-4D48-8FF3-0E7CD7EF9B55}</Project>
+      <Name>Loopc.Service.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Service\Loopc.Service.IServiceProvider\Loopc.Service.IServiceProvider.csproj">
+      <Project>{8077D20A-3F42-4F62-BC20-86773958E5A0}</Project>
+      <Name>Loopc.Service.IServiceProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

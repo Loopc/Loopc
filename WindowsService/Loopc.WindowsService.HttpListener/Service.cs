@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.Linq;
-using System.ServiceProcess;
-using System.Text;
+﻿using System.ServiceProcess;
+using Loopc.Foundation.Log;
+using Loopc.IOC.BindingModule;
+using Loopc.Service.IServiceProvider;
+using Ninject;
 
 namespace Loopc.WindowsService.HttpListener
 {
@@ -18,7 +15,11 @@ namespace Loopc.WindowsService.HttpListener
 
         protected override void OnStart(string[] args)
         {
-            // TODO: 在此处添加代码以启动服务。
+            var kernel = new StandardKernel(new ServiceBindingModule(), new RepositoryBindingModule(), new OtherBindingModule());
+            var demoService = kernel.Get<IDemoService>();
+            var demoContract = demoService.GetData();
+
+            LogManager.Debug(string.Format("date: {0}, time: {1}", demoContract.Data, demoContract.DateTime));
         }
 
         protected override void OnStop()
