@@ -15,7 +15,7 @@ namespace Loopc.Foundation.Log
                 if (_log == null)
                 {
                     XmlConfigurator.Configure();
-                    _log = log4net.LogManager.GetLogger("Boomboxinc.Log");
+                    _log = log4net.LogManager.GetLogger("Loopc.Log");
                 }
                 return _log;
             }
