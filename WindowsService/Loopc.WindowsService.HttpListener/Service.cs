@@ -1,5 +1,6 @@
 ﻿using System.ServiceProcess;
 using Loopc.Foundation.Log;
+using Loopc.Foundation.Utility;
 using Loopc.IOC.BindingModule;
 using Loopc.Service.IServiceProvider;
 using Ninject;
@@ -19,7 +20,7 @@ namespace Loopc.WindowsService.HttpListener
             var demoService = kernel.Get<IDemoService>();
             var demoContract = demoService.GetData();
 
-            LogManager.Debug(string.Format("date: {0}, time: {1}", demoContract.Data, demoContract.DateTime));
+            LogManager.Debug(string.Format("demo data: {0}", JsonFormatUtility.Serialize(demoContract)));
         }
 
         protected override void OnStop()
