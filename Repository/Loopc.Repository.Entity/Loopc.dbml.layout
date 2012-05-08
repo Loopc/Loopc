@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Loopc">
+  <DataContextMoniker Name="/LoopcDataContext" />
+  <nestedChildShapes>
+    <classShape Id="70274679-bbcd-4ca7-afd5-0179856200e8" absoluteBounds="2.375, 1.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/LoopcDataContext/Configuration" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4aef0605-9d65-4e98-a02c-5749ac9952ce" absoluteBounds="2.39, 2.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

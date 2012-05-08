@@ -8,7 +8,7 @@ namespace Loopc.IOC.BindingModule
     {
         public override void Load()
         {
-            Bind<IDemoService>().To<DemoService>().InSingletonScope();
+            Bind<IConfigurationService>().To<ConfigurationService>().InSingletonScope();
         }
     }
 }

@@ -1,24 +1,26 @@
 ﻿using System.Web.Mvc;
 using Loopc.Service.IServiceProvider;
-using Loopc.Service.Contract;
+using Loopc.UI.Account.ViewModel;
 
 namespace Loopc.UI.Account.Controllers
 {
     public class HomeController : BaseController
     {
-        IDemoService _demoService;
+        IConfigurationService _configurationService;
 
-        public HomeController(IDemoService demoService)
+        public HomeController(IConfigurationService configurationService)
         {
-            _demoService = demoService;
+            _configurationService = configurationService;
         }
 
         public ActionResult Index()
         {
-            var demoContract = _demoService.GetData();
-            var demoViewModel = demoContract.ToDemoViewModel();
+            var homeViewModel = new HomeViewModel
+            {
+                Host = _configurationService.Get("host.account.loopc")
+            };
 
-            return View(demoViewModel);
+            return View(homeViewModel);
         }
     }
 }

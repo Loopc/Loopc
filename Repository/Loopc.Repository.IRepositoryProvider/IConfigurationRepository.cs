@@ -2,8 +2,8 @@
 
 namespace Loopc.Repository.IRepositoryProvider
 {
-    public interface IDemoRepository
+    public interface IConfigurationRepository
     {
-        Demo GetData();
+        Configuration Get(string name);
     }
 }

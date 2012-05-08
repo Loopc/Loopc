@@ -17,10 +17,6 @@ namespace Loopc.WindowsService.HttpListener
         protected override void OnStart(string[] args)
         {
             var kernel = new StandardKernel(new ServiceBindingModule(), new RepositoryBindingModule(), new OtherBindingModule());
-            var demoService = kernel.Get<IDemoService>();
-            var demoContract = demoService.GetData();
-
-            LogManager.Debug(string.Format("demo data: {0}", JsonFormatUtility.Serialize(demoContract)));
         }
 
         protected override void OnStop()

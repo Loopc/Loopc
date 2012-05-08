@@ -5,9 +5,8 @@ using System.Text;
 
 namespace Loopc.UI.Account.ViewModel
 {
-    public class DemoViewModel
+    public class HomeViewModel
     {
-        public string Data { get; set; }
-        public DateTime DateTime { get; set; }
+        public string Host { get; set; }
     }
 }
